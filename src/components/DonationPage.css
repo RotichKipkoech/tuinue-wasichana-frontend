@@ -1,0 +1,35 @@
+/* components/DonationPage.css */
+.donation-form {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .donation-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .donation-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .donation-button {
+    padding: 10px 30px;
+    background-color: #FF6F61;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donation-button:hover {
+    background-color: #FF4E39;
+  }
+  

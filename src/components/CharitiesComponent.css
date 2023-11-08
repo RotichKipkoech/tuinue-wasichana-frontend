@@ -1,0 +1,35 @@
+.charities-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .charity-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .charity-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .charity-card p {
+    font-size: 1.2em;
+  }
+  
+  .charity-card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .charity-card button:hover {
+    background-color: #0056b3;
+  }
+  
