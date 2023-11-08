@@ -1,6 +1,7 @@
 // components/Charities.js
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { connect } from 'react-redux';
+import {Link} from 'react-router-dom'; 
 import "./Charities.css";
 
 const Charities = () => {
@@ -45,7 +46,9 @@ const Charities = () => {
             <div>
               <h3>{charity.name}</h3>
               <p>{charity.description}</p>
-              <Link to={charity.link}>Donate</Link>
+              <Link to="/DonationPage">
+               <div className="text-wrapper">Donate</div>
+              </Link>
             </div>
           </li>
         ))}

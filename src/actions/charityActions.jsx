@@ -26,3 +26,10 @@ export const deleteCharity = (charityId) => {
     payload: charityId,
   };
 };
+
+export const setCharities = (charities) => {
+  return {
+    type: 'SET_CHARITIES',
+    payload: charities,
+  };
+};
